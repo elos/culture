@@ -90,3 +90,27 @@ You will be presented with different options, among them squashing commits toget
 Interactive rebasing contributes to the goal of clean commit history, and effective merges to master. Your commit behavior can be frequent on the separate branch, and you can distill the essential progress upon rebase.
 
 Rebase aggresively against master when working on separate branches.
+
+Merging to Master
+----------------
+
+The only merging you will ever do will be to the master branch. Always use the `--ff-only` flag
+
+ 1. rebase your branch on master (interactively to clean up your commit history)
+    ```bash
+      git fetch origin/master
+      git rebase -i origin/master
+    ```
+ 2. checkout your local master branch, make sure it is up to date with origin/master as well
+    ```bash
+      git checkout master
+      git pull origin master
+    ```
+ 3. now you can _merge_ your commits, using --ff-only (fast-forward only)
+    ```bash
+      git merge <branch_name> --ff-only
+    ```
+
+Fast forward merges fast-forward master to the HEAD of your branch. Effectively the counterpart of a rebase.
+
+This merge requires no merge commit, and does not reproduce change sets, as it only applies all your commits on the feature branch sequentially to master.
