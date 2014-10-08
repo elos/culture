@@ -114,6 +114,6 @@ The only merging ever needed will be from a feature branch into the master branc
       git merge <branch_name> --ff-only
     ```
 
-Fast forward merges (`ff-only`) applly the commits on your feature branch sequentially to master.
+Fast forward merges (`ff-only`) apply the commits on your feature branch sequentially to master.
 
 Effectively the counterpart of a rebase, the merge requires no commit, and does not reproduce changesets.
