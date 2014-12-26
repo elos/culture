@@ -14,9 +14,10 @@ If you are the first developer to work in a language, it is your responsability 
 - work with a CI platform such as [Travis](https://travis-ci.org/first_sync)
 - be trivial to set up, in order to save time with multi-platform testing
 
-| Language | Framework                               |
-| -------- | :-------------------------------------: |
-| Swift    | [Quick](https://github.com/Quick/Quick) |
+| Language | Framework                                |
+| -------- | :-------------------------------------:  |
+| Go       | [Ginkgo](https://github.com/onsi/ginkgo) |
+| Swift    | [Quick](https://github.com/Quick/Quick)  |
 
 Tests
 -----
