@@ -18,8 +18,8 @@ If you are the first developer to work in a language, it is your responsability 
 | -------- | :-------------------------------------: |
 | Swift    | [Quick](https://github.com/Quick/Quick) |
 
-Testing
--------
+Tests
+-----
 
 ### `it` statements
 
