@@ -17,3 +17,43 @@ If you are the first developer to work in a language, it is your responsability 
 | Language | Framework                               |
 | -------- | :-------------------------------------: |
 | Swift    | [Quick](https://github.com/Quick/Quick) |
+
+Testing
+-------
+
+### `it` statements
+
+An `it` statement should read like a sentence in the simple present tense:
+
+```ruby
+it 'reads like a sentence' { ... }
+it 'works like a charm' { ... }
+it 'has an actual description of what it is doing' { ... }
+```
+
+### `describe` blocks
+
+Use a `describe` block to group tests by subject
+
+```ruby
+describe 'User' do
+  describe '.top' do
+    it 'returns the top n users with the top score' { ... }
+    it 'returns all users when n > User.count' { ... }
+  end
+end
+```
+
+### `context` blocks
+
+Use a `context` block to group tests with similar setups:
+
+```ruby
+context 'when logged in' do
+  before { log_in }
+  it { is_expected.to respond_with 200 }
+end
+context 'when logged out' do
+  it { is_expected.to respond_with 401 }
+end
+```
