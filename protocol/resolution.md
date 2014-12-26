@@ -1,9 +1,8 @@
 Resolving Conflict
 ------------------
 
-Conflict can stem from disagreement, but most often arises from the elos tradition of _ownership_.
+Conflict can stem from disagreement, but most often arises from the elos tradition of _[ownership](https://github.com/elos/culture/blob/master/ownership.md)_.
 
-Any member of the team can express discontent at there assignment/task if they feel that contradicts their mission,
-    or, less philosophically eloquent, if they feel the suggestion/assignment is stupid.
+Any member of the team can express discontent at their assignment or task if they feel that the assignment is stupid, a waste a time, ill-defined, or contradicts company or personal mission.
 
-This discontent is and should always be expressed immediately, and dealt with by examination of company culture and mission.
+Any discontent should be expressed immediately, and dealt with by examination of company culture, plans, and mission.
