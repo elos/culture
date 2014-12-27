@@ -117,3 +117,34 @@ The only merging ever needed will be from a feature branch into the master branc
 Fast forward merges (`ff-only`) apply the commits on your feature branch sequentially to master.
 
 Effectively the counterpart of a rebase, the merge requires no commit, and does not reproduce changesets.
+
+Submodules
+----------
+
+A submodule is the correct way to embed one git repository into another. Git tracks the correct version of the foreign repository, and allows for simple updates. To add a submodule:
+
+  ```bash
+    git submodule add <repository> <path>
+    git submodule update --init --recursive
+  ```
+
+Where `<repository>` is the location of the repository (via https, git, or ssh), and `<path>` is the relative path that will contain the submodule.
+
+A fresh clone of your repository will not include the submodules, so it requires an `update`:
+
+  ```bash
+    git submodule update --init --recursive
+  ```
+
+In order to update a submodule, treat it as its own git repository:
+
+  ```bash
+    cd <path>
+    git pull --rebase origin master
+  ```
+
+The parent repository will track the changes to the submodule, make sure that you commit that you've updated the submodules:
+
+  ```bash
+    git commit -m 'update <submodule_name>
+  ```
