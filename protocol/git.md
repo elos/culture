@@ -146,5 +146,5 @@ In order to update a submodule, treat it as its own git repository:
 The parent repository will track the changes to the submodule, make sure that you commit that you've updated the submodules:
 
   ```bash
-    git commit -m 'update <submodule_name>
+    git commit -m 'update <submodule_name>'
   ```
