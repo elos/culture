@@ -4,3 +4,14 @@ We believe that any team needs culture, a set of shared values, a collection of 
 expectations and supercede mediocrity.
 
 Culture is important. At elos we articulate and protect it.
+
+---------------------------
+
+### Contents
+ - [Protocol](https://github.com/elos/culture/tree/master/protocol)
+  - [Documentation](https://github.com/elos/culture/blob/master/protocol/documentation.md)
+  - [Git](https://github.com/elos/culture/blob/master/protocol/git.md)
+  - [Resolving Conflict](https://github.com/elos/culture/blob/master/protocol/resolution.md)
+  - [Testing](https://github.com/elos/culture/blob/master/protocol/testing.md)
+ - [Reading](https://github.com/elos/culture/blob/master/readings/reading.md)
+
