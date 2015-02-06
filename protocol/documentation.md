@@ -17,3 +17,8 @@ Document:
  * Ideas important to elos prospect
 
 If something is _expected_ it should be _visible_. Documentation provides for the prominence of codified ideas.
+
+Praxis:
+-------
+
+At elos we also codify certina protocols and practices. Whenever there is something implicit that can be articuluted explicitly, record it [here](https://github.com/elos/culture/tree/master/protocol)
