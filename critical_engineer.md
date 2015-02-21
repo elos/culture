@@ -1,4 +1,4 @@
-THE CRITICAL ENGINEERING MANIFESTO
+#### The Critical Engineering Manifesto
 
   0. The Critical Engineer considers Engineering to be the most transformative language of our time, shaping the way we move, communicate and think. It is the work of the Critical Engineer to study and exploit this language, exposing its influence.
   1. The Critical Engineer considers any technology depended upon to be both a challenge and a threat. The greater the dependence on a technology the greater the need to study and expose its inner workings, regardless of ownership or legal provision.
