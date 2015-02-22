@@ -11,7 +11,7 @@ Write commit messages in the present tense, lower case.
 i.e., `add the ability to create a user`
 
 This is the only correct format, past tense is never needed. Anything without an action verb is vague.
-Think about applying changsets (commits) as actions, each commit changes the code in some way.
+Think about applying changesets (commits) as actions, each commit changes the code in some way.
 
 When more information is needed, supply it as bullets in the details of the commmit messages. Always cap at three bullets
 
@@ -58,7 +58,7 @@ Deleting Branches:
 Rebasing
 --------
 
-Rebasing is the elos engineer's replacement for merges. Merges are sloppy, uncoordinated, and reproduce diff history.
+Rebasing replaces merging. Merges are sloppy, uncoordinated, and reproduce diff history.
 
 Rebasing is especially useful for branch-based development.
 
@@ -116,7 +116,7 @@ The only merging ever needed will be from a feature branch into the master branc
 
 Fast forward merges (`ff-only`) apply the commits on your feature branch sequentially to master.
 
-Effectively the counterpart of a rebase, the merge requires no commit, and does not reproduce changesets.
+Effectively the counterpart of a rebase, the fast-forward merge requires no commit, and does not reproduce changesets.
 
 Submodules
 ----------
