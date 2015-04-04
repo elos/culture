@@ -148,6 +148,9 @@ Since we can treat the submodule as its own git repository, we can also do thing
 ```bash
     cd <path>
     git fetch && git checkout new-feature-branch
+    
+    # or, simply do this when adding the submodule:
+    # git submodule add -b <branch-name> <repository> <path>
 ```
 
 The parent repository will track the changes to the submodule, make sure that you commit that you've updated the submodules:
