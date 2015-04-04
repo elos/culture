@@ -142,6 +142,13 @@ In order to update a submodule, treat it as its own git repository:
     cd <path>
     git pull --rebase origin master
   ```
+  
+Since we can treat the submodule as its own git repository, we can also do things like checking out different branches of the repo:
+
+```bash
+    cd <path>
+    git fetch && git checkout new-feature-branch
+```
 
 The parent repository will track the changes to the submodule, make sure that you commit that you've updated the submodules:
 
