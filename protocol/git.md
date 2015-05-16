@@ -17,7 +17,7 @@ When more information is needed, supply it as bullets in the details of the comm
 
 i.e.,
 
-```vim
+```
     add ability to create a user
 
     * I needed to rework the database connection for this
