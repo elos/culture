@@ -27,6 +27,9 @@ i.e.,
 
 (Your commits will never be so incomplete, else they certainly only exist on a separate branch.)
 
+##### For Example:
+![Exemplar Commit](exemplar_commit.png)
+
 Branching
 ---------
 
@@ -97,19 +100,19 @@ Merging to Master
 The only merging ever needed will be from a feature branch into the master branch. Always use the `--ff-only` flag
 
  1. rebase your branch on master (interactively to clean up your commit history)
- 
+
     ```bash
       git fetch origin/master
       git rebase -i origin/master
     ```
  2. checkout your local master branch, make sure it is up to date with origin/master as well
- 
+
     ```bash
       git checkout master
       git pull origin master
     ```
  3. now you can _merge_ your commits, using --ff-only (fast-forward only)
- 
+
     ```bash
       git merge <branch_name> --ff-only
     ```
@@ -142,13 +145,13 @@ In order to update a submodule, treat it as its own git repository:
     cd <path>
     git pull --rebase origin master
   ```
-  
+
 Since we can treat the submodule as its own git repository, we can also do things like checking out different branches of the repo:
 
 ```bash
     cd <path>
     git fetch && git checkout new-feature-branch
-    
+
     # or, simply do this when adding the submodule:
     # git submodule add -b <branch-name> <repository> <path>
 ```
