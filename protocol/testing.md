@@ -1,6 +1,8 @@
 Testing
 =======
 
+"If it's not tested, it's broken." - every elos dev
+
 Frameworks
 ----------
 
