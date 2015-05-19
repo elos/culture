@@ -1,7 +1,7 @@
 Testing
 =======
 
-"If it's not tested, it's broken." - every elos dev
+> "It's not tested? So it's broken." - every elos dev
 
 Frameworks
 ----------
