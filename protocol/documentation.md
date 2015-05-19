@@ -21,4 +21,4 @@ If something is _expected_ it should be _visible_. Documentation provides for th
 Praxis:
 -------
 
-At elos we also codify certina protocols and practices. Whenever there is something implicit that can be articuluted explicitly, record it [here](https://github.com/elos/culture/tree/master/protocol)
+At elos we also codify certain protocols and practices. Whenever there is something implicit that can be articuluted explicitly, record it [here](https://github.com/elos/culture/tree/master/protocol)
