@@ -58,6 +58,14 @@ Deleting Branches:
      git branch -D <branch_name>
    ```
 
+If you ever get caught on master a few commits ahead, and you wanted to be in a branch (or forgot to branch).
+
+    ```bash
+     git checkout -b newbranch # creates new branch with commits
+     git checkout master # return to master
+     git reset --hard HEAD~2 # ~N, where N is the number of commits you made on master
+    ```
+    
 Rebasing
 --------
 
