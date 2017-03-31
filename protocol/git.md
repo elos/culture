@@ -65,6 +65,7 @@ If you ever get caught on master a few commits ahead, and you wanted to be in a 
      git checkout master # return to master
      git reset --hard HEAD~2 # ~N, where N is the number of commits you made on master
 ```
+this may not be the correct way to go [see here](http://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git).
     
 Rebasing
 --------
